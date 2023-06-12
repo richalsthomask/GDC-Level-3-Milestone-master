@@ -85,5 +85,6 @@ class SimpleTest(unittest.TestCase):
         self.command_object.done(["35"])
         self.assertIn(task, self.command_object.render_completed_tasks())
 
+
 reset_files()
 unittest.main()
